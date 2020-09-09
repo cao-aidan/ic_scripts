@@ -1,0 +1,8 @@
+
+git config --global user.name "cao-aidan"
+git config --global user.email "1517414305@qq.com"
+
+ps -e | grep sshd
+
+ssh-keygen -t rsa -C "1517414305@qq.com" 
+
