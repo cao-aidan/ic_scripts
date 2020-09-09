@@ -14,9 +14,9 @@ remote_path=/PKU_VLSI_20200903_1610
 start=$(date +%s)
 
 # FTP information
-FTP_ADDRESS=xxxx
-USER_NAME=xxxx
-PASSWORD=xxxx
+FTP_ADDRESS=ftp.unitedds.com
+USER_NAME=CWG0490
+PASSWORD=X83j#t6v
 
 ftp -i -v -n <<EOF
 open $FTP_ADDRESS
